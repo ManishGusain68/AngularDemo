@@ -1,0 +1,55 @@
+ng new hello-world : to create angular project
+
+ng serve : to build an application and serve it locally, the server automatically rebuilds the application and reloads the page when you change any of the source files.
+
+ng g c comp-name : to generate a component comp-name
+
+webpack build tool
+
+
+
+
+code . (to open vscode from current directory)
+
+code main.ts  (to open main.ts in vscode)
+
+tsc main.ts  (to transpile the tsc file to js file) - this step automatically while building angular app
+
+while running the angular using "ng serve calls", angular cli automaticalls calls typscript copliler
+
+all js code is valid ts code.
+
+node main.js / node main.ts      -- to run the file
+
+
+good to use let keyword.
+
+
+
+-------Angular--------
+
+Component : Data + HTML template + Logic
+
+Module : group of related components
+
+
+Component :->
+
+1. Create a compoenent
+2. Register it in a module
+3. add an element in an HTML Markup
+
+
+String Interpolation :- its one way data binding technique that is used to transfer the data from a typescript to html template
+
+Dependency Injection
+
+
+when we add a service in provider array, angular will create a single instance and pass it to whoever need it. thats called singleton
+
+
+
+
+
+
+
